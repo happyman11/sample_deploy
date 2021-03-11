@@ -1,8 +1,12 @@
 
-
-Flask==1.1.2
-numpy==1.19.3
-scikit-learn==0.23.2
-scipy==1.5.4
-sklearn==0.0
+scikit-learn
+scipy
+sklearn
+Flask
+gunicorn
+numpy
+matplotlib
+brewer2mpl
+pillow
+seaborn
 
