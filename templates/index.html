@@ -52,10 +52,7 @@ body {
 </head>
 
 <body>
-<div class="header">
-  <h2></h2>
- 
-</div>
+
 
 <nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark" >
   <a class="navbar-brand" href="https://www.rstiwari.com">Profile</a>
@@ -108,9 +105,13 @@ body {
     
   </div>
 </nav>
-	
+<br>
+<br>
  <div class="login">
 	<h1>IRIS Classifier </h1>
+	 
+	 <br>
+	 <br>
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="sepal_length" placeholder="Sepal Length" required="required" />
         <input type="text" name="sepal_width" placeholder="Sepal Width" required="required" />
